@@ -1,0 +1,10 @@
+{
+    "version": "1.0",
+    "services": {
+        "web": {
+            "port": 8000,
+            "image": "tsl0922/ttyd:latest",
+            "command": "ttyd -p 8000 bash -x"
+        }
+    }
+}
